@@ -1,8 +1,8 @@
 # E-Commerce Analytics Dashboard
 
 A production-ready business intelligence dashboard built with **Streamlit** and **Plotly**, analysing a real-world e-commerce dataset (~540 k transactions).
+
 Link to view dashboard: https://e-commerce-dashboard-butqd7mn23duswdamuetcy.streamlit.app/
-Link to dataset: https://www.kaggle.com/datasets/carrie1/ecommerce-data
 
 ---
 
@@ -25,7 +25,7 @@ Sidebar controls let you filter by **date range**, **country**, and **product ke
 ## Dataset
 
 The dashboard expects a file named **`data.csv`** in the project root.  
-It uses the [UCI Online Retail dataset](https://archive.ics.uci.edu/ml/datasets/online+retail) (or any CSV with the same schema):
+It uses the https://www.kaggle.com/datasets/carrie1/ecommerce-data dataset:
 
 | Column | Type | Notes |
 |---|---|---|
@@ -80,7 +80,7 @@ The app will open at `http://localhost:8501`.
 ```
 ecommerce_dashboard/
 ├── app.py               # Main Streamlit application
-├── data.csv             # Dataset (not tracked in repo — add manually)
+├── data.csv             # Dataset
 ├── requirements.txt     # Python dependencies
 ├── README.md            # This file
 └── .streamlit/
